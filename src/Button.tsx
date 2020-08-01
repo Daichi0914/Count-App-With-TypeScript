@@ -1,22 +1,46 @@
 import React from 'react';
 
-const Button = ({setCount, count}) => {
+interface ButtonProps {
+  count: number;
+  setCount: Function;
+}
+
+const manyCount: number = 10;
+const littleCount: number = 1;
+
+const Button = ({ count, setCount }: ButtonProps): JSX.Element => {
+  const onManyDecrease = (): void => {
+    setCount(count - manyCount);
+  };
+  const onLittleDecrease = () => {
+    setCount(count - littleCount);
+  };
+  const onReset = () => {
+    setCount(count - count);
+  };
+  const onLittleIncrease = () => {
+    setCount(count + littleCount);
+  };
+  const onManyIncrease = () => {
+    setCount(count + manyCount);
+  };
+
   return (
     <ul>
       <li>
-        <button onClick={() => setCount(count - 10)}>-10</button>
+        <button onClick={onManyDecrease}> -{manyCount} </button>
       </li>
       <li>
-        <button onClick={() => setCount(count - 1)}>-1</button>
+        <button onClick={onLittleDecrease}> -{littleCount} </button>
       </li>
       <li>
-        <button onClick={() => setCount(count - count)}>recet</button>
+        <button onClick={onReset}> reset </button>
       </li>
       <li>
-        <button onClick={() => setCount(count + 1)}>+1</button>
+        <button onClick={onLittleIncrease}> +{littleCount} </button>
       </li>
       <li>
-        <button onClick={() => setCount(count + 10)}>+10</button>
+        <button onClick={onManyIncrease}> +{manyCount} </button>
       </li>
     </ul>
   );

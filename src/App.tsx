@@ -1,11 +1,11 @@
 import React from 'react';
-import Title from './Title';
 import Counter from './Counter';
+import './scss/app.styles.scss';
 
 const App = () => {
   return (
     <>
-      <Title>CountApp</Title>
+      <h1 className='title'>CountApp</h1>
       <Counter />
     </>
   );
