@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Count-App_With-TypeScript/static/css/main.0b68f74f.chunk.css",
+    "main.js": "/Count-App_With-TypeScript/static/js/main.1e194dfd.chunk.js",
+    "main.js.map": "/Count-App_With-TypeScript/static/js/main.1e194dfd.chunk.js.map",
+    "runtime-main.js": "/Count-App_With-TypeScript/static/js/runtime-main.531ee99b.js",
+    "runtime-main.js.map": "/Count-App_With-TypeScript/static/js/runtime-main.531ee99b.js.map",
+    "static/js/2.5f7a8524.chunk.js": "/Count-App_With-TypeScript/static/js/2.5f7a8524.chunk.js",
+    "static/js/2.5f7a8524.chunk.js.map": "/Count-App_With-TypeScript/static/js/2.5f7a8524.chunk.js.map",
+    "index.html": "/Count-App_With-TypeScript/index.html",
+    "precache-manifest.d1989bcd3d29ea798f3e8df4455cdde6.js": "/Count-App_With-TypeScript/precache-manifest.d1989bcd3d29ea798f3e8df4455cdde6.js",
+    "service-worker.js": "/Count-App_With-TypeScript/service-worker.js",
+    "static/css/main.0b68f74f.chunk.css.map": "/Count-App_With-TypeScript/static/css/main.0b68f74f.chunk.css.map",
+    "static/js/2.5f7a8524.chunk.js.LICENSE.txt": "/Count-App_With-TypeScript/static/js/2.5f7a8524.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.531ee99b.js",
+    "static/js/2.5f7a8524.chunk.js",
+    "static/css/main.0b68f74f.chunk.css",
+    "static/js/main.1e194dfd.chunk.js"
+  ]
+}
