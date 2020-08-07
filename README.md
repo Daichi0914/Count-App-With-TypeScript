@@ -5,4 +5,5 @@
 初めてReactを触ったときに作ったショボいカウントアプリ(<a>https://github.com/Daichi0914/CountApp</a>)をリファクタリングしてみました。
 
 ### 第2弾はこちら↓
-... Now Refactoring ...
+ToDoAppのリファクタリング</br>
+<a>https://github.com/Daichi0914/ToDo-App_With-TypeScript</a>
